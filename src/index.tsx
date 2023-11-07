@@ -1,11 +1,16 @@
-import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.scss';
-import { App } from './App';
+import { HashRouter as Router } from 'react-router-dom';
+import { Provider } from './Context';
+
+import App from './App';
+
+import './styles/main.scss';
 
 ReactDOM.render(
-  <React.StrictMode>
-    <App />
-  </React.StrictMode>,
+  <Router>
+    <Provider>
+      <App />
+    </Provider>
+  </Router>,
   document.getElementById('root'),
 );
