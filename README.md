@@ -24,37 +24,37 @@
   - Navigation is implemented using React Router.
 
   ## Header:
-    - Search and filter products by name is implemented,
-    - Debounce function is used in filtering to prevent the server from being overloaded with requests.
+  - Search and filter products by name is implemented,
+  - Debounce function is used in filtering to prevent the server from being overloaded with requests.
 
   ## Home page:
-    - Main photo scrolls automatically every 5 seconds,
-    - Products sliders with the ability to scroll products by clicking on the arrows.
+  - Main photo scrolls automatically every 5 seconds,
+  - Products sliders with the ability to scroll products by clicking on the arrows.
 
   ## Catalog pages:
-    - Products are fetched from the server by category,
-    - Wait function was used to simulate the loading of products from the server to demonstrate the loader,
-    - Ability to sort products by name, price, and age is implemented,
-    - All sorting parameters are saved in the URL,
-    - Pagination is implemented. The number of products displayed on the page can be changed by the user.
+  - Products are fetched from the server by category,
+  - Wait function was used to simulate the loading of products from the server to demonstrate the loader,
+  - Ability to sort products by name, price, and age is implemented,
+  - All sorting parameters are saved in the URL,
+  - Pagination is implemented. The number of products displayed on the page can be changed by the user.
 
   ## Product details page:
-    - Product details are fetched from the server,
-    - Wait function was used to simulate the loading of products from the server to demonstrate the loader,
-    - User can pick a color and capacity of the product,
-    - Photos of the product can be changed by clicking on the thumbnails,
-    - User can add the product to the cart or favorites.
+  - Product details are fetched from the server,
+  - Wait function was used to simulate the loading of products from the server to demonstrate the loader,
+  - User can pick a color and capacity of the product,
+  - Photos of the product can be changed by clicking on the thumbnails,
+  - User can add the product to the cart or favorites.
 
   ## Favourites page:
-    - User can add products to favorites and remove them from favorites,
-    - Favorites count is shown near the Favorites icon in the header,
-    - Favorites are saved in the local storage.
+  - User can add products to favorites and remove them from favorites,
+  - Favorites count is shown near the Favorites icon in the header,
+  - Favorites are saved in the local storage.
 
   ## Cart page:
-    - User can change the quantity of products in the cart and remove products from the cart,
-    - Cart items count is shown near the Cart icon in the header,
-    - Total amount and quantity are calculated automatically,
-    - Cart items are saved in the local storage.
+  - User can change the quantity of products in the cart and remove products from the cart,
+  - Cart items count is shown near the Cart icon in the header,
+  - Total amount and quantity are calculated automatically,
+  - Cart items are saved in the local storage.
 
 # Reflections
  Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
