@@ -2,6 +2,8 @@
 
   A single-page application implements online store functionality. User can browse products, add them to the cart and favorites, search products, sort products, change the quantity of products per page and amount of pages, view product details.
 
+# [DEMO](https://sergey-mironenko.github.io/Phone-catalog/)
+
 # Technologies used
 
   - React.js
@@ -12,7 +14,6 @@
   - LoDash
   - Fetch, API
   - Sass (SCSS)
-  - CSS Modules
 
 # Structure
 
@@ -60,14 +61,9 @@
  Project goals included using technologies learned up until this point and familiarizing myself with documentation for new features.
 
  I ran into necessity to use new features, such as:
-   - loaders,
    - error boundaries,
-   - data prefetching,
-   - lazy loading,
-   - new hooks (useCallback, useLocaleStorage etc.) I had to learn how to use them and implement them in the project,
-   - Another challenge was to create custom useLocaleStorage hook, to save products to localeStorage and Context at the same time.
+   - data fetching,
+   - React context,
+   - Another challenge was to create custom hooks.
 
- When the project was finished, I've figured out how to work with bigger projects and how to use mentioned technologies all together.
-
-# Demo link
- - https://sergey-mironenko.github.io/Phone-catalog/
+ At the end of the day, I've figured out how to work with bigger projects and how to use mentioned technologies all together.
